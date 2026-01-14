@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": 1,
+      "new": "yes",
+      "trend": ""
+    },
+    {
+      "id": 2,
+      "new": "",
+      "trend": "yes"
+    },
+    {
+      "id": 3,
+      "new": "",
+      "trend": ""
+    },
+    {
+      "id": 4,
+      "new": "yes",
+      "trend": "yes"
+    }
+  ]
+}
