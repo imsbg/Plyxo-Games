@@ -1,1 +1,25 @@
-<meta http-equiv="refresh" content="0; url=plyxogames://play" />
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plyxo Games</title>
+  <script>
+    function openApp() {
+      var appUrl = "plyxogames://play";
+      var playStoreUrl = "https://play.google.com/store/apps/details?id=in.sandeep.plyxogames";
+
+      // Try opening the app
+      window.location.href = appUrl;
+
+      // If app not opened, redirect to Play Store after delay
+      setTimeout(function () {
+        window.location.href = playStoreUrl;
+      }, 1500); // 1.5 seconds delay
+    }
+
+    window.onload = openApp;
+  </script>
+</head>
+<body>
+  <p>Opening Plyxo Games...</p>
+</body>
+</html>
