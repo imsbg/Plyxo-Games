@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.sandeep.plyxogames",
+      "sha256_cert_fingerprints":
+        ["FC:27:BD:93:E2:1C:E0:D6:4D:1A:06:AD:A4:82:EC:B2:75:20:6E:5A:3E:91:FB:77:73:56:3A:0B:3B:1A:81:9C"]
+    }
+  }
+]
